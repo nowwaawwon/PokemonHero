@@ -31,12 +31,16 @@ body {
     padding-left: 50%;
     margin-top: 300px;
 }
-
+input{
+    background-color:transparent;
+    text-align:center;
+}
 button{
     margin-left: 8%;
     background-color: green;
 }
 
 button:hover{
-    
+    transition: all 1.5s ease-in;
+    background-color: blue;
 }
