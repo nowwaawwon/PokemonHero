@@ -1,0 +1,42 @@
+body {
+    /* Rasmni qisqaroq va tushunarli yozish (Shorthand) */
+    background: url('surreal-cherry-3840x2160-26233.jpg') no-repeat center center / cover;
+    
+    /* Sahifa balandligi doimo ekranni to'liq egallashi uchun */
+    min-height: 100vh;
+    
+    /* Margin va Padding nollashtirish */
+    margin: 0;
+    padding: 0;
+    
+    /* Matnni chiroyli va o'qishli qilish */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333; /* Matn ko'rinishi uchun asosiy rang */
+    line-height: 1.6;
+    
+    /* Rasm yuklanguncha yoki yuklanmay qolsa orqa fon rangi */
+    background-color: #f4f4f4; 
+}
+.errror{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pok{
+    backdrop-filter: blur(10px);
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    padding-left: 50%;
+    margin-top: 300px;
+}
+
+button{
+    margin-left: 8%;
+    background-color: green;
+}
+
+button:hover{
+    
+}
